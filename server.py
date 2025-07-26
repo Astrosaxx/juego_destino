@@ -4,12 +4,10 @@ import random
 app = Flask(__name__)
 app.secret_key = "clave_secreta"  # Necesaria para usar sesiones
 
-# Ruta principal con el formulario
 @app.route("/")
 def index():
     return render_template("index.html")
 
-# Ruta POST que recibe los datos del formulario
 @app.route("/enviar", methods=["POST"])
 def enviar():
     nombre = request.form.get("nombre")
@@ -22,7 +20,6 @@ def enviar():
 
     return redirect("/futuro")
 
-# Ruta para mostrar la predicción del destino
 @app.route("/futuro")
 def futuro():
     mensajes_buenos = [
