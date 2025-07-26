@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+.card {
+    border-radius: 20px;
+}
+
+.main{
+    border-radius: 20px;
+}
+
+h2{
+    margin-bottom: 60px;
+    font-family: fantasy;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #363473;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+}
+
+.body2{
+    background-color: #363473;
+}
+
+strong {
+    color: #363473;
+}
+
+h4 {
+    color: #363473;
+    font-weight: bold;
+}
